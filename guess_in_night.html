@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	var rightAnswersCount =0;
+
+	
+	var firstAnswer = prompt("Без голоса кричит, Без зубов кусает, Без кульев летит, Без горла завывает ");
+		firstAnswer=  firstAnswer.toLowerCase();
+		if (firstAnswer == "ветер"){
+			alert("голлум тебя не сьест");
+			rightAnswersCount++;
+		}
+		else
+			alert("неверно, моя преелееессссть");
+
+	var secondAnswer = prompt("Без петель и замков тот дом, Слиток золота спрятан в нём ");
+		secondAnswer = secondAnswer.toLowerCase();
+		if(secondAnswer == "яйцо" || secondAnswer == "яйца"){
+			alert("так нечестно, давай третью загадку!")
+			rightAnswersCount++;
+		}
+		else 
+			alert ("неверно, моя преелееессссть");
+
+	var thirdAnswer = prompt("что у меня в кармашке?");
+		thirdAnswer = thirdAnswer.toLowerCase();
+		if(thirdAnswer == "кольцо"){
+			alert("Чертов хоббитсс");
+			rightAnswersCount++
+		}
+		else if(thirdAnswer == "бечевка или ничего")
+			 alert("так нечестно, нечестно!")
+		else
+			alert("моя преелееессссть пропааала");
+
+
+		alert("правильных ответов " + rightAnswersCount);
+
+
+</script>
